@@ -121,6 +121,10 @@ code {
   }
 }
 
+.transparent {
+  background-color: $black;
+}
+
 .title {
   font-family: $title;
   text-transform: uppercase;
