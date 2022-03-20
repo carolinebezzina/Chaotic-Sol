@@ -13,7 +13,7 @@ export class Officers extends Component {
               <div className="card-body">
                 <h4>HR Officers</h4>
                 <p>
-                  The guild's HR Officers are Z and Orchidine. Their role is to
+                  The guild's HR Officers are <span className="shaman">Z</span> and <span className="druid">Orchidine</span>. Their role is to
                   check in on guild members and listen to any concerns or
                   suggestions you have.
                   <br />
@@ -24,14 +24,14 @@ export class Officers extends Component {
 
                 <h4>Recruitment Officers</h4>
                 <p>
-                  The recruitment Officers are Xy and Chico. Their role is to
+                  The recruitment Officers are <span className="demon-hunter">Xy</span> and <span className="warlock">Chico</span>. Their role is to
                   find new guild members, introduce them to the guild, and help
                   them settle in.
                 </p>
 
                 <h4>Raid Leaders</h4>
                 <p>
-                  Our raid leaders are Santos and Saturnë. They attend all of
+                  Our raid leaders are <span className="hunter">Santos</span> and <span className="paladin">Saturnë</span>. They attend all of
                   our guild raids, and teach/instruct the raid team on how to
                   overcome the boss fights.
                   <br />
@@ -42,7 +42,7 @@ export class Officers extends Component {
 
                 <h4>Event Coordinator</h4>
                 <p>
-                  The guild's Event Coordinator is Monk. He is responsible for
+                  The guild's Event Coordinator is <span className="druid">Monk</span>. He is responsible for
                   organising regular guild activities for all members to
                   participate in and enjoy.
                   <br />
@@ -52,14 +52,14 @@ export class Officers extends Component {
 
                 <h4>Quartermaster</h4>
                 <p>
-                  Jupitrë is our quartermaster. She looks after multiple aspects
+                <span className="druid">Jupitrë</span> is our quartermaster. She looks after multiple aspects
                   of the guild and is there to support members and officers
                   alike.
                 </p>
 
                 <h4>Guild Leader</h4>
                 <p>
-                  Saturnë is our Guild Leader. He holds our ranks together and
+                <span className="paladin">Saturnë</span> is our Guild Leader. He holds our ranks together and
                   oversees this whole operation to make sure we continue to
                   adhere and uphold our guild values and philosophies.
                 </p>
@@ -82,13 +82,7 @@ export class Officers extends Component {
                     src="https://render-us.worldofwarcraft.com/character/dalaran/101/221148773-avatar.jpg"
                     alt="Z"
                   />
-                  <figcaption
-                    style={{
-                      color: "#0070DD",
-                      fontWeight: "bold",
-                      textAlign: "center",
-                    }}
-                  >
+                  <figcaption className="caption shaman">
                     Z
                   </figcaption>
                 </figure>
@@ -106,13 +100,7 @@ export class Officers extends Component {
                     src="https://render-us.worldofwarcraft.com/character/dalaran/234/220358378-avatar.jpg"
                     alt="Orchidine"
                   />
-                  <figcaption
-                    style={{
-                      color: "#FF7C0A",
-                      fontWeight: "bold",
-                      textAlign: "center",
-                    }}
-                  >
+                  <figcaption className="caption druid">
                     Orchidine
                   </figcaption>
                 </figure>
@@ -134,13 +122,7 @@ export class Officers extends Component {
                     src="https://render.worldofwarcraft.com/us/character/dalaran/154/221090714-avatar.jpg"
                     alt="Xy"
                   />
-                  <figcaption
-                    style={{
-                      color: "#A330C9",
-                      fontWeight: "bold",
-                      textAlign: "center",
-                    }}
-                  >
+                  <figcaption className="caption demon-hunter">
                     Xy
                   </figcaption>
                 </figure>
@@ -157,13 +139,7 @@ export class Officers extends Component {
                     src="https://render-us.worldofwarcraft.com/character/dalaran/108/200772460-avatar.jpg"
                     alt="Chico"
                   />
-                  <figcaption
-                    style={{
-                      color: "#8788EE",
-                      fontWeight: "bold",
-                      textAlign: "center",
-                    }}
-                  >
+                  <figcaption className="caption warlock">
                     Chico
                   </figcaption>
                 </figure>
@@ -184,13 +160,7 @@ export class Officers extends Component {
                     src="https://render-us.worldofwarcraft.com/character/dalaran/148/174087316-avatar.jpg"
                     alt="Santos"
                   />
-                  <figcaption
-                    style={{
-                      color: "#AAD372",
-                      fontWeight: "bold",
-                      textAlign: "center",
-                    }}
-                  >
+                  <figcaption className="caption hunter">
                     Santos
                   </figcaption>
                 </figure>
@@ -206,13 +176,7 @@ export class Officers extends Component {
                     src="https://render-us.worldofwarcraft.com/character/dalaran/57/220040249-avatar.jpg"
                     alt="Saturnë"
                   />
-                  <figcaption
-                    style={{
-                      color: "#F48CBA",
-                      fontWeight: "bold",
-                      textAlign: "center",
-                    }}
-                  >
+                  <figcaption className="caption paladin">
                     Saturnë
                   </figcaption>
                 </figure>
@@ -233,13 +197,7 @@ export class Officers extends Component {
                     src="https://render-us.worldofwarcraft.com/character/dalaran/105/219318377-avatar.jpg"
                     alt="Monk"
                   />
-                  <figcaption
-                    style={{
-                      color: "#FF7C0A",
-                      fontWeight: "bold",
-                      textAlign: "center",
-                    }}
-                  >
+                  <figcaption className="caption druid">
                     Monk
                   </figcaption>
                 </figure>
@@ -260,13 +218,7 @@ export class Officers extends Component {
                     src="https://render-us.worldofwarcraft.com/character/dalaran/28/220064796-avatar.jpg"
                     alt="Jupitrë"
                   />
-                  <figcaption
-                    style={{
-                      color: "#FF7C0A",
-                      fontWeight: "bold",
-                      textAlign: "center",
-                    }}
-                  >
+                  <figcaption className="caption druid">
                     Jupitrë
                   </figcaption>
                 </figure>
@@ -287,13 +239,7 @@ export class Officers extends Component {
                     src="https://render-us.worldofwarcraft.com/character/dalaran/57/220040249-avatar.jpg"
                     alt="Saturnë"
                   />
-                  <figcaption
-                    style={{
-                      color: "#F48CBA",
-                      fontWeight: "bold",
-                      textAlign: "center",
-                    }}
-                  >
+                  <figcaption className="caption paladin">
                     Saturnë
                   </figcaption>
                 </figure>
