@@ -8,6 +8,7 @@ const Guidelines = lazy(() => import('./pages/Guidelines'));
 const RaidingInfo = lazy(() => import('./pages/RaidingInfo'));
 const Officers = lazy(() => import('./pages/Officers'));
 const AdminTesting = lazy(() => import('./pages/AdminTesting'));
+const Contest = lazy(() => import('./pages/Contest'));
 
 class AppRoutes extends Component {
   render () {
@@ -20,6 +21,7 @@ class AppRoutes extends Component {
           <Route exact path="/raiding-info" component={ RaidingInfo } />
           <Route exact path="/officers" component={ Officers } />
           <Route exact path="/admin-testing" component={ AdminTesting } />
+          <Route exact path="/contest" component={ Contest } />
           <Redirect to="/" />
         </Switch>
       </Suspense>

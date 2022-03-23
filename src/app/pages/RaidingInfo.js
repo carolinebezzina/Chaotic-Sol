@@ -14,29 +14,26 @@ export class RaidingInfo extends Component {
                   <p>The following guidelines are to ensure raiding expectations are transparent from the beginning and fair treatment for all.</p>
 
                   <h4>Raid Levels</h4>
-                  <p>We aim to run both Normal and Higher versions of the current content.
+                  <p>We aim to progress through Normal and then move onto Higher versions of the current content. 
                   <br />Our Normal raids are relaxed and fun events. We typically do not have ilvl or other requirements to join. If you are looking to experience current end-game content without higher demands, this is where you should be. We will help you learn the encounters with us, but we always appreciate a little review on your part before you attend, if at all possible. We will also use a Normal run to assess your suitability for our Higher level raiding, if that is your goal.</p>
 
-                  <p>Our Higher level raiding (Heroic and/or Mythic) have stricter standards to meet: ilvl requirements and performance evaluation. We also expect that any Higher level raiders be open and flexible to working with each other and Raid Leaders to improve on performance/rotations etc. While Chaotic Sol always aim to be inclusive, and encourage you to play what you want, we ask that you respect that as a progression raiding group, our Higher level raiders rely heavily on every member contributing equally to the progress, and that spaces/roles are limited.</p>
+                  <p>Our Higher level raiding (Heroic / Mythic) have stricter standards to meet: ilvl requirements/legendries when applicable and performance evaluation. We also expect that any Higher level raiders be open and flexible to working with each other and Raid Leaders to improve on performance/rotations etc. While Chaotic Sol always aim to be inclusive, and encourage you to play what you want, we ask that you respect that as a progression raiding group, our Higher level raiders rely heavily on every member contributing equally to the progress, and that spaces/roles are limited.</p>
 
                   <h4>Scheduling and Attendance</h4>
                   
-                  <p><strong>Normal</strong> – sign ups in Discord
-                  <br />Tuesdays 8pm – 11pm server time. Occasionally incomplete runs may be scheduled on another day on an ad-hoc basis, depending on interest and availability.</p>
+                  <p>Sign ups in Discord.</p>
+                  <p>Thursdays and Saturdays 8pm – 11pm server time. Occasionally runs may be scheduled on another day on an ad-hoc basis, depending on interest and availability.</p>
 
-                  <p><strong>Heroic</strong> – sign ups in Discord
-                  <br />Thursdays and Saturdays, 8pm – 11pm server time.</p>
-
-                  <p>3 hours maximum raid time, unless voted to extend by raid
+                  <p>3 hours maximum raid time, unless voted to extend by raid.
                   <br />There is an expectation of consistent attendance should you commit to Higher level raiding.</p>
                   
                   <ul>
                   <li>Breaks will be taken roughly on the hour for ~5-10 minutes.</li>
 
                   <li>We do strongly request that you sign up to the events created in the relevant scheduling channel. Advance information regarding attendance gives Raid Leads time to plan. 
-                  <br />If your plans change, please either amend your sign up (eg change from attending to late if you will be late) or do your best to speak to an officer prior. All of our officers are available on Discord, even when not in game. We understand that life happens and comes first!!</li>
+                  <br />If your plans change, please either amend your sign up (eg change from attending to late if you will be late) or do your best to speak to an Officer prior. All of our Officers are available on Discord, even when not in game. We understand that life happens and comes first!!</li>
 
-                  <li>Discord is our primary source of communication during raid – We do not expect you to speak to us, but you should be able to listen at the very least. Please speak to an officer ahead of time if this is an issue for you.</li>
+                  <li>Discord is our primary source of communication during raid – We do not expect you to speak to us, but you should be able to listen at the very least. Please speak to an Officer ahead of time if this is an issue for you.</li>
                   </ul>
 
                   <h4>Loot Rules</h4>
