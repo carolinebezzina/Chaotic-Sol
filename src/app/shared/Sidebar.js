@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link, withRouter } from 'react-router-dom';
-import { Trans } from 'react-i18next';
 
 class Sidebar extends Component {
 
@@ -42,25 +41,25 @@ class Sidebar extends Component {
           <li className={ this.isPathActive('/') ? 'nav-item menu-items active' : 'nav-item menu-items' }>
             <Link className="nav-link" to="/">
               <span className="menu-icon"><i className="mdi mdi-home"></i></span>
-              <span className="menu-title"><Trans>Welcome</Trans></span>
+              <span className="menu-title">Welcome</span>
             </Link>
           </li>
           <li className={ this.isPathActive('/guidelines') ? 'nav-item menu-items active' : 'nav-item menu-items' }>
             <Link className="nav-link" to="/guidelines">
               <span className="menu-icon"><i className="mdi mdi-marker-check"></i></span>
-              <span className="menu-title"><Trans>Guild Guidelines</Trans></span>
+              <span className="menu-title">Guild Guidelines</span>
             </Link>
           </li>
           <li className={ this.isPathActive('/raiding-info') ? 'nav-item menu-items active' : 'nav-item menu-items' }>
             <Link className="nav-link" to="/raiding-info">
               <span className="menu-icon"><i className="mdi mdi-sword"></i></span>
-              <span className="menu-title"><Trans>Raiding Info</Trans></span>
+              <span className="menu-title">Raiding Info</span>
             </Link>
           </li>
           <li className={ this.isPathActive('/officers') ? 'nav-item menu-items active' : 'nav-item menu-items' }>
             <Link className="nav-link" to="/officers">
               <span className="menu-icon"><i className="mdi mdi-account-group"></i></span>
-              <span className="menu-title"><Trans>Our Officers</Trans></span>
+              <span className="menu-title">Our Officers</span>
             </Link>
           </li>
         </ul>

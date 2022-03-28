@@ -38,7 +38,14 @@ export class Home extends Component {
               </div>
             </div>
           </div>
-          </div>
+          {/* <div className="col-lg-4 grid-margin stretch-card">
+            <div className="card">
+              <div className="card-body">
+                
+              </div>
+            </div>
+          </div> */}
+        </div>
       </div>
     )
   }
