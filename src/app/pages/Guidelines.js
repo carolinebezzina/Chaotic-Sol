@@ -8,7 +8,7 @@ export class Guidelines extends Component {
           <h3 className="page-title"> Guild Guidelines </h3>
         </div>
         <div className="row">
-          <div className="col-md-7 grid-margin stretch-card">
+          <div className="col-lg-7 grid-margin stretch-card">
             <div className="card">
               <div className="card-body">
                 <p><strong>Chaotic Sol</strong> aims to be a fun and welcoming home and community. We are inclusive of all types of players, but consider ourselves primarily a casual guild. Our guild is a safe space, and we do not tolerate abusive or disrespectful behaviour in any capacity.</p>
@@ -30,7 +30,7 @@ export class Guidelines extends Component {
               </div>
             </div>
           </div>
-          <div className="col-md-5 grid-margin stretch-card">
+          <div className="col-lg-5 grid-margin stretch-card">
             <div className="card">
               <div className="card-body">
                 <h4>Ranks</h4>

@@ -8,7 +8,7 @@ export class RaidingInfo extends Component {
           <h3 className="page-title"> Raiding Info </h3>
         </div>
         <div className="row">
-          <div className="col-md-7 grid-margin stretch-card">
+          <div className="col-lg-7 grid-margin stretch-card">
             <div className="card">
               <div className="card-body">
                   <p>The following guidelines are to ensure raiding expectations are transparent from the beginning and fair treatment for all.</p>
@@ -65,7 +65,7 @@ export class RaidingInfo extends Component {
               </div>
             </div>
           </div>
-          <div className="col-md-5 grid-margin stretch-card">
+          <div className="col-lg-5 grid-margin stretch-card">
             <div className="card transparent">
               <img className="rounded" src={require('../../assets/images/WoWScrnShot_021222_202150.jpg')} style={{maxWidth: "100%"}} />
               <br />

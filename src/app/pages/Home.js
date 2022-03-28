@@ -8,7 +8,7 @@ export class Home extends Component {
           <h3 className="page-title"> Welcome to Chaotic Sol! </h3>
         </div>
         <div className="row">
-          <div className="col-md-8 grid-margin stretch-card">
+          <div className="col-lg-8 grid-margin stretch-card">
             <div className="card">
               <div className="card-body">
                 <p>We are a social guild with an active discord, as well as in-game communities on both Alliance and Horde. We run keys regularly and have social events such as achievement and mount runs and the occasional PvP.</p>

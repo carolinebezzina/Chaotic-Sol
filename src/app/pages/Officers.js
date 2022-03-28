@@ -8,7 +8,7 @@ export class Officers extends Component {
           <h3 className="page-title"> Our Officers </h3>
         </div>
         <div className="row">
-          <div className="col-md-9 grid-margin stretch-card">
+          <div className="col-lg-9 grid-margin stretch-card">
             <div className="card">
               <div className="card-body">
                 <h4>HR Officers</h4>
@@ -66,7 +66,7 @@ export class Officers extends Component {
               </div>
             </div>
           </div>
-          <div className="col-md-3 grid-margin stretch-card">
+          <div className="col-lg-3 grid-margin stretch-card">
             <div className="card transparent">
               <div className="card-body">
                 <figure
